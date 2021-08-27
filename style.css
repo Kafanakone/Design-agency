@@ -1,0 +1,77 @@
+/* General CSS */
+body{
+    background-color: #f6f4f3;
+    font-family: "Arial Black";
+    color: #17383f;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Hearder */
+.heardd{
+    display: flex;
+    justify-content: center;
+}
+.navigation{
+    display: flex;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation ul li{
+    padding: 15px;
+}
+.navigation ul li a{
+    color: #17383f;
+}
+.boutton-top{
+    border: 2px #17383f solid;
+    width: 120px;
+    height: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 35px;
+}
+.boutton-top:hover{
+    background-color: #17383f;
+    color: #fff;
+}
+
+/* Center */
+
+.center {
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px ;
+    margin-bottom: 0;
+}
+.center h5{
+    margin-top: -15px;
+}
+.boutton-center{
+    padding-top: 10px;
+}
+.boutton-center span{
+    padding: 15px;
+    justify-self: center;
+    border: 2px #17383f solid;
+    border-radius: 15px;
+    background-color: #17383f;
+    color: #fff;
+}
+.boutton-center span:hover{
+    background-color: transparent;
+    color: #17383f;
+}
+.image img{
+    display: block;
+    margin: auto;
+}
