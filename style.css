@@ -54,6 +54,9 @@ a{
 .boutton-top a{
     color: #17383f;
 }
+.boutton-top a:hover{
+    color: #fff;
+}
 .boutton-top:hover{
     background-color: #17383f;
     color: #fff;
@@ -80,6 +83,9 @@ a{
     border-radius: 15px;
     background-color: #17383f;
     color: #fff;
+}
+.boutton-center span a:hover{
+    color: #17383f;
 }
 .boutton-center span:hover{
     background-color: transparent;
