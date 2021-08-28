@@ -1,14 +1,25 @@
 /* General CSS */
+html{
+    width: 100%;
+    height: 100%;
+}
 body{
     background-color: #f6f4f3;
     font-family: "Arial Black";
     color: #17383f;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 100%;
+    height: 100%;
 }
 ol,ul{
     list-style: none;
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 /* Hearder */
@@ -39,6 +50,9 @@ a{
     margin-top: 20px;
     text-align: center;
     margin-left: 35px;
+}
+.boutton-top a{
+    color: #17383f;
 }
 .boutton-top:hover{
     background-color: #17383f;
